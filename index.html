@@ -5,11 +5,22 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style type="text/css">
-		body { background: #3fb8af; color: #fff; }
+		body { margin: 0; padding: 0; }
+		#pgHeaderBar { background: #3fb8af; color: #fff; padding: 20px 22px 10px; }
+		#pgHeaderBar h1 { font-weight: normal; font-size: 50px; margin: 0; }
 		#pgContent section { padding: 20px 22px; text-align: left; }
 		#pgContent section:nth-child(2) { padding: 0px 22px; }
 		#pgContent section p { font-size: 20px; } 
 		#pgContent p { margin-bottom: 6px; font-size: 1em; line-height: 1.4em; }
+		#pgContent #teamDiv { background: #4dd0e1; color: #fff; text-align: center; }
+		#teamDiv div { width: 24%; display: inline-block; text-align: center; }
+		#teamDiv span img { height: 100px; width: 100px; border-radius: 100%; }
+		h2 { font-weight: normal; font-size: 40px; margin: 0; color: #f27083;  }
+		#pgContent #thanksDiv { text-align: center; }
+		#pgContent #thanksDiv h2 { margin: 20px 0; color: #f27083; }
+		#pgContent #teamDiv h2 { margin: 0 0 20px 0; color: #fff; }
+		#pgContent #thanksDiv img { height: 50%; width: 50%; }
+		.footerDiv { text-align: center; font-size: 18px; color: #f27083; }
 	</style>
 </head>
 
@@ -18,14 +29,14 @@
 	<div id="home">
 		<header id="pgHeaderBar">
 			<img src="images/happinest_timeline_70.png">
+			<h1>Happynest</h1>
 		</header>
 		<div id="pgContent">	
 			<section>
+				<h2 style="font-weight:normal; font-size:40px; margin: 0;">About the app</h2>
 				<p>Happynest is a gratitude journal app that helps you and your friends, family, and co-workers be happier and appreciate each other! Psychology research shows that if you get into the habit of writing once a week about what you're grateful for, you will feel happier and healthier.</p>
-				<p>Sign up with a group, or what we call a nest, of close friends or family who want to do this happiness challenge with you. Then go forth and write! Once you complete your challenge for the week, you can see everyone else's entries. Goal is to get everyone in the nest to write at least once a week. Tap on your pal to nudge them to post that week.</p>
-				<p>Be happy!</p>
-			</section>
-			<section style="text-align: center;">
+				<p>Sign up with a group, or what we call a nest, of close friends or family who want to do this happiness challenge with you. Then go forth and write! Once you complete your challenge for the week, you can see everyone else's entries. Goal is to get everyone in the nest to write at least once a week. Tap on your pal to nudge them to post that week. Be happy!</p>
+				<p>Fill out your info in this <a href="https://docs.google.com/forms/d/e/1FAIpQLSfICjEsqBrCdDac8Mu4WF05DFQDw5kZ46Esgdr5LGYand8gGQ/viewform">form</a> to get Beta access to Happynest.</p>
 				<p>Please contact <a href="mailto:happynestteam@gmail.com">happynestteam@gmail.com</a> for Happynest app support.</p>
 			</section>
 			<section>
@@ -35,9 +46,39 @@
 				<span><img src="images/screenshot4.png" /></span>
 				<span><img src="images/screenshot5.png" /></span>
 			</section>
-			
+			<section id="thanksDiv">
+				<h2>Special Thanks To</h2>
+				<img src="images/codepathLogo.svg">
+			</section>
+			<section id="teamDiv">
+				<h2>The Happiness Team</h2>
+				<div>
+					<span><img src="images/carina.jpg"></span>
+					<p>Carina Boo</p>
+				</div>
+				<div>
+					<span><img src="images/deeksha.jpg"></span>
+					<p>Deeksha Prabhakar</p>
+				</div>
+				<div>
+					<span><img src="images/dylan.jpg"></span>
+					<p>Dylan Miller</p>
+				</div>
+				<div>
+					<span><img src="images/james.jpg"></span>
+					<p>James Zihan Zhou</p>
+				</div>
+			</section>
+
 		</div>
-	</div>
+		<footer class="footerDiv">
+			<p>
+				&copy; 2016 Made with &hearts; by Carina, Deeksha, Dylan & James
+			</p>
+		</footer>
+
+	</footer>
+</div>
 
 </body>
 
